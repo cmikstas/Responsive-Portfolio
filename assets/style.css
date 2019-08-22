@@ -84,3 +84,19 @@ body {
 .card {
     border: 0px;
 }
+
+/**Responsiveness Information**/
+@media screen and (max-width: 980px)
+{
+
+}
+
+@media screen and (max-width: 768px)
+{
+
+}
+
+@media screen and (max-width: 640px)
+{
+    
+}
