@@ -1,94 +1,46 @@
 <!DOCTYPE html>
 <html>
-
-<head class="h-100">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
-
-    <title>Chris Mikstas Bootstrap Portfolio</title>
-</head>
-
-<body class="d-flex flex-column">
-    <header>
-        <div class="container">
-            <nav class="navbar navbar-expand-md navbar-light bg-white">
-                <a href="#" class="navbar-brand text text-dark">
-                    <h3>Chris Mikstas</h3>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../Bootstap-Portfolio/index.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../Bootstap-Portfolio/portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../Bootstap-Portfolio/contact.html">Contact</a>
-                        </li>
-                    </ul>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <title>Chris Mikstas Contact</title>
+    </head>
+    <body>
+        <header>
+            <div class="div-header">
+                <div>
+                    <h1 class="div-header-h1">Chris Mikstas</h1>
                 </div>
-            </nav>
-        </div>
-    </header>
-
-    <div class="border-under-nav"></div>
-
-    <div class="background-image page-content">
-        <div class="container mt-4 border">
-            <div class="row">
-                <div class="col-md-12 border-bottom bg-light">
-                    <h3 class="pl-2 pt-3 pb-2 h3-header">Contact</h3>
-                </div>
+                <ul>
+                    <li><a class="header-link" href="contact.html">Contact</a></li>
+                    <li><a class="header-link" href="portfolio.html">Portfolio</a></li>
+                    <li><a class="header-link" href="index.html">About</a></li>
+                </ul>
             </div>
-            <div class="row">
-                <div class="col-md-12 bg-light pb-3">
-                    <form class="mt-1">
-                        <div class="form-group lead">
-                            <label for="exampleInputEmail1">Name</label>
-                            <input type="text" class="form-control" id="FormInputName2" placeholder="Enter Name">
-                        </div>
-                        <div class="form-group lead">
-                            <label for="exampleInputPassword1">Email</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Enter Email">
-                        </div>
-                        <div class="form-group lead">
-                            <label for="exampleFormControlTextarea1">Message</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"
-                                placeholder="Message"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </div>
+        </header>
+        <div class="div-body-contact">
+            <h1 class="main-content-h1">Contact</h1>
+            <div class="contact-field-div">
+                <form> 
+                    <label for="name">Name</label>
+                        <br>
+                    <input name="name" id="name" type="text" class="form-input" placeholder="Your Name" required>
+                        <br>
+                    <label for="email">Email</label>
+                        <br>
+                    <input name="email" id="email" type="text" class="form-input" placeholder="example@gmail.com" required>
+                        <br>
+                    <label for="message">Message</label>
+                        <br>
+                    <textarea name="message" id="message" class="form-input" placeholder="Your Message" rows="10" required></textarea>
+                        <br>
+                    <input type="submit" value="Submit" class="form-submit">
+                </form>
             </div>
         </div>
-    </div>
-    <footer id="sticky-footer" class="py-3 bg-dark text-white-50 footer-all">
-        <div class="container text-center">
-            <small>Copyright &copy</small>
-        </div>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-
-</body>
-
+        <footer class="footer-contact">
+            <h6 class="h6-contact">Copyright &copy</h6>
+        </footer>
+    </body>
 </html>
