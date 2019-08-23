@@ -18,7 +18,6 @@ header {
 }
 
 .div-header {
-  clear: both;
   width: 960px;
   margin-left: 200px;
   margin-right: 200px;
@@ -26,7 +25,6 @@ header {
 }
 
 .div-header-h1 {
-  clear: both;
   float: left;
   padding: 29px;
   font-size: 22px;
@@ -55,6 +53,11 @@ header {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777;
   min-height: calc(100vh - 243px);
+
+}
+
+section {
+  padding: 0px 20px 20px 20px;
 }
 
 ul {
@@ -83,7 +86,7 @@ img {
   float:left;
   width:200px;
   height:200px;
-  margin: 0px 20px 20px 20px;
+  margin-right: 20px;
 }
 
 .main-content-h1 {
@@ -183,7 +186,7 @@ h6 {
 }
 
 .footer-contact {
-  margin-top: 114px;
+  margin-top: 117px;
   position: relative;
 	width: 100%;
   height: 45px;
@@ -231,7 +234,7 @@ h6 {
 }
 
 .portfolio-content-div {
-  padding: 0px 20px 20px 20px;
+
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777
 }
@@ -307,7 +310,7 @@ h6 {
   font-size: 9px;
 }
 
-/** Responsiveness Stuff**/
+/** Responsiveness Shit**/
 
 @media screen and (max-width: 980px){
     .div-header {
@@ -320,7 +323,8 @@ h6 {
       width: 696px;
     }
     .form-input {
-      width: 696px;
+      width: 100%;
+      margin: 5px auto;
     }
     .portfolio-div-body {
       width: 696px;
@@ -337,8 +341,9 @@ h6 {
     .div-body-contact {
       width: 600px;
   }
-    .form-input {
-      width: 600px;
+  .form-input {
+    width: 100%;
+    margin: 5px auto;
   }
     .portfolio-div-body {
       width: 600px;
@@ -350,26 +355,52 @@ h6 {
     height: 150px;
   }
 
-  .div-header-h1 {
-    margin-bottom: 0px;
-    width: 110%;
+  .div-navicons {
+    width: 246px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  ul {
+  display: inline;
+}
+
+  li {
+    float: right;
+    padding: 30 15;
     text-align: center;
   }
-  
+
   .div-header {
-    width: 250px;
-}
+    width: 100%;
+  }
+
+  .div-header-h1 {
+    margin-bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .div-body {
-    width: 250px;
-}
+    width: 100%;
+    margin: 0 auto;
+  }
+
   .div-body-contact {
-    width: 250px;
-}
+    width: 100%;
+    margin: 0 auto;
+  }
+
+ .portfolio-div-body {
+    width: 100%;
+    margin: 0 auto;
+ }
+
   .form-input {
-    width: 250px;
-}
-  .portfolio-div-body {
-    width: 250px;
-}
-}
+    width: 100%;
+    margin: 5px auto;
+  }
+
 }
