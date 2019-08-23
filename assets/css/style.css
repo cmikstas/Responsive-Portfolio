@@ -306,3 +306,70 @@ h6 {
   color: #dddddd;
   font-size: 9px;
 }
+
+/** Responsiveness Stuff**/
+
+@media screen and (max-width: 980px){
+    .div-header {
+      width: 696px;
+    }
+    .div-body {
+      width:696px;
+    }
+    .div-body-contact {
+      width: 696px;
+    }
+    .form-input {
+      width: 696px;
+    }
+    .portfolio-div-body {
+      width: 696px;
+    }
+  }
+
+@media screen and (max-width: 768px){
+    .div-header {
+      width: 600px;
+  }
+    .div-body {
+      width: 600px;
+  }
+    .div-body-contact {
+      width: 600px;
+  }
+    .form-input {
+      width: 600px;
+  }
+    .portfolio-div-body {
+      width: 600px;
+  }
+}
+
+@media screen and (max-width: 640px){
+  header {
+    height: 150px;
+  }
+
+  .div-header-h1 {
+    margin-bottom: 0px;
+    width: 110%;
+    text-align: center;
+  }
+  
+  .div-header {
+    width: 250px;
+}
+  .div-body {
+    width: 250px;
+}
+  .div-body-contact {
+    width: 250px;
+}
+  .form-input {
+    width: 250px;
+}
+  .portfolio-div-body {
+    width: 250px;
+}
+}
+}
